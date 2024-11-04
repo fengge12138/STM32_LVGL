@@ -6,7 +6,11 @@
     ".eide/deps",
     "GUI",
     "GUI/lvgl_port",
-    "GUI/lvgl"
+    "GUI/lvgl",
+    "FreeRTOS",
+    "FreeRTOS/portable/MemMang",
+    "FreeRTOS/portable/RVDS",
+    "FreeRTOS/include"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
@@ -67,6 +71,15 @@
         "files": [],
         "folders": [
           {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../../demo/ZET6/Core/Src/system_stm32f1xx.c"
+              }
+            ],
+            "folders": []
+          },
+          {
             "name": "STM32F1xx_HAL_Driver",
             "files": [
               {
@@ -116,15 +129,6 @@
               },
               {
                 "path": "../../demo/ZET6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
-              }
-            ],
-            "folders": []
-          },
-          {
-            "name": "CMSIS",
-            "files": [
-              {
-                "path": "../../demo/ZET6/Core/Src/system_stm32f1xx.c"
               }
             ],
             "folders": []
@@ -189,7 +193,12 @@
   },
   "targets": {
     "ZET6": {
-      "excludeList": [],
+      "excludeList": [
+        "FreeRTOS/portable/MemMang/heap_1.c",
+        "FreeRTOS/portable/MemMang/heap_2.c",
+        "FreeRTOS/portable/MemMang/heap_3.c",
+        "FreeRTOS/portable/MemMang/heap_5.c"
+      ],
       "toolchain": "AC5",
       "compileConfig": {
         "cpuType": "Cortex-M3",
@@ -339,7 +348,11 @@
           ".eide/deps",
           "GUI",
           "GUI/lvgl_port",
-          "GUI/lvgl"
+          "GUI/lvgl",
+          "FreeRTOS",
+          "FreeRTOS/portable/MemMang",
+          "FreeRTOS/portable/RVDS/ARM_CM3",
+          "FreeRTOS/include"
         ],
         "libList": [],
         "sourceDirList": [],
