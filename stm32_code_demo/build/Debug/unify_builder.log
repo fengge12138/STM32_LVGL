@@ -1,0 +1,45 @@
+[2024-10-09 18:42:35]	[info] incremental build: 27 source files changed
+These source files will be recompiled
+---
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\SRC\main.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\code\core_cm3.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\code\startup_stm32f10x_hd.s': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\code\system_stm32f10x.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\misc.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_adc.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_bkp.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_can.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_cec.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_crc.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_dac.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_dbgmcu.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_dma.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_exti.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_flash.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_fsmc.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_gpio.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_i2c.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_iwdg.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_pwr.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_rcc.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_rtc.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_sdio.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_spi.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_tim.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_usart.c': object (.o) file not exist
+'c:\Users\32894\Desktop\stm32\vscode\stm32_code_demo\stm32_driver\src\stm32f10x_wwdg.c': object (.o) file not exist
+
+[2024-10-09 18:42:39]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+c:/users/32894/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file c:/Users/32894/Desktop/stm32/vscode/stm32_code_demo/<YOUR_LINKER_SCRIPT>.lds: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+
+[2024-10-09 18:43:06]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+c:/users/32894/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file c:/Users/32894/Desktop/stm32/vscode/stm32_code_demo/<YOUR_LINKER_SCRIPT>.lds: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+

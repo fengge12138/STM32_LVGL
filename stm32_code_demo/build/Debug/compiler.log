@@ -1,0 +1,8 @@
+>>> cc
+
+
+
+>>> ld
+
+c:/users/32894/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file c:/Users/32894/Desktop/stm32/vscode/stm32_code_demo/<YOUR_LINKER_SCRIPT>.lds: Invalid argument
+collect2.exe: error: ld returned 1 exit status

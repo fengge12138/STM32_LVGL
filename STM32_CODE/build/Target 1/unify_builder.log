@@ -1,0 +1,85 @@
+[2024-06-06 17:10:34]	compilation failed at : "c:\Users\32894\Desktop\stm32\vscode\STM32_EVAL\Haedware\mpuiic.c", exit code: 1
+command: 
+  "E:\KEIL5\keil_5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../STM32_EVAL/Start -I../STM32_EVAL/User -I../STM32_EVAL/Library -I../STM32_EVAL/System -I../STM32_EVAL/Haedware -I../STM32_EVAL/FreeRTOS -I../STM32_EVAL/FreeRTOS/include -I../STM32_EVAL/FreeRTOS/portable/RVDS/ARM_CM3 -I.cmsis/include -I"../STM32_EVAL/RTE/_Target 1" -I.eide/deps -DUSE_STDPERIPH_DRIVER --cpu Cortex-M3 --li --c99 -D__MICROLIB -O0 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o ".\build\Target 1\.obj\__\STM32_EVAL\Haedware\mpuiic.o" --no_depend_system_headers --depend ".\build\Target 1\.obj\__\STM32_EVAL\Haedware\mpuiic.d" .\..\STM32_EVAL\Haedware\mpuiic.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\LCD_ST7735S.c: 0 warnings, 1 error
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\LED.c: 0 warnings, 1 error
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\OLED.c: 0 warnings, 1 error
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\PWM.C: 0 warnings, 1 error
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\Serial.c: 0 warnings, 1 error
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\W25Q64.c: 0 warnings, 1 error
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\mpu6050.c: 0 warnings, 1 error
+"../STM32_EVAL/Start/stm32f10x.h", line 96: Error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+    ^
+.\..\STM32_EVAL\Haedware\mpuiic.c: 0 warnings, 1 error
+
+[2024-06-06 17:12:08]	[done]
+	build successfully !
+
+[2024-06-06 17:14:22]	compilation failed at : "c:\Users\32894\Desktop\stm32\vscode\STM32_EVAL\User\main.c", exit code: 1
+command: 
+  "E:\KEIL5\keil_5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../STM32_EVAL/Start -I../STM32_EVAL/User -I../STM32_EVAL/Library -I../STM32_EVAL/System -I../STM32_EVAL/Haedware -I../STM32_EVAL/FreeRTOS -I../STM32_EVAL/FreeRTOS/include -I../STM32_EVAL/FreeRTOS/portable/RVDS/ARM_CM3 -I.cmsis/include -I"../STM32_EVAL/RTE/_Target 1" -I.eide/deps -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD --cpu Cortex-M3 --li --c99 -D__MICROLIB -O0 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o ".\build\Target 1\.obj\__\STM32_EVAL\User\main.o" --no_depend_system_headers --depend ".\build\Target 1\.obj\__\STM32_EVAL\User\main.d" .\..\STM32_EVAL\User\main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\STM32_EVAL\User\main.c", line 32: Warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned short"
+  	LCD_ShowString(20, 20, "nihao", GREEN, GRAYBLUE, 12);
+  	                       ^
+".\..\STM32_EVAL\User\main.c", line 32: Warning:  #69-D: integer conversion resulted in truncation
+  	LCD_ShowString(20, 20, "nihao", GREEN, GRAYBLUE, 12);
+  	                                       ^
+".\..\STM32_EVAL\User\main.c", line 32: Warning:  #167-D: argument of type "int" is incompatible with parameter of type "unsigned char *"
+  	LCD_ShowString(20, 20, "nihao", GREEN, GRAYBLUE, 12);
+  	                                                 ^
+".\..\STM32_EVAL\User\main.c", line 32: Warning:  #152-D: conversion of nonzero integer to pointer
+  	LCD_ShowString(20, 20, "nihao", GREEN, GRAYBLUE, 12);
+  	                                                 ^
+".\..\STM32_EVAL\User\main.c", line 32: Error:  #165: too few arguments in function call
+  	LCD_ShowString(20, 20, "nihao", GREEN, GRAYBLUE, 12);
+  	                                                   ^
+.\..\STM32_EVAL\User\main.c: 4 warnings, 1 error
+
+[2024-06-06 17:16:12]	[done]
+	build successfully !
+
+[2024-06-06 17:19:10]	[done]
+	build successfully !
+
+[2024-06-06 17:21:40]	[done]
+	build successfully !
+
+[2024-06-06 17:28:12]	[done]
+	build successfully !
+
+[2024-06-06 17:30:06]	[done]
+	build successfully !
+
+[2024-06-06 17:45:32]	[done]
+	build successfully !
+
+[2024-06-06 17:55:31]	[done]
+	build successfully !
+

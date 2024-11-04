@@ -1,0 +1,4 @@
+arm-none-eabi-objcopy --update-section ER_RO="c:\Users\32894\Desktop\stm32\vscode\STM32_CODE\build\Target 1\Project.bin" "c:\Users\32894\Desktop\stm32\vscode\STM32_CODE\build\Target 1\Project.axf" "c:\Users\32894\Desktop\stm32\vscode\STM32_CODE\build\Target 1\Project.elf"
+
+arm-none-eabi-objcopy: c:\Users\32894\Desktop\stm32\vscode\STM32_CODE\build\Target 1\Project.elf: warning: allocated section `ER_RW' not in segment
+

@@ -1,0 +1,1 @@
+-c -x assembler-with-cpp -mthumb -Istm32_driver/code -Istm32_driver/inc -mcpu=cortex-m3 -g --specs=nosys.specs --specs=nano.specs -o ./build/Debug/.obj/stm32_driver/code/startup_stm32f10x_hd.o -MMD ./stm32_driver/code/startup_stm32f10x_hd.s

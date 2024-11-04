@@ -1,0 +1,1 @@
+-c -xc -mthumb -std=c11 -Istm32_driver/code -Istm32_driver/inc -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -mcpu=cortex-m3 -Og -Wall -g --specs=nosys.specs --specs=nano.specs -ffunction-sections -fdata-sections -o ./build/Debug/.obj/stm32_driver/src/stm32f10x_flash.o -MMD ./stm32_driver/src/stm32f10x_flash.c

@@ -1,0 +1,3 @@
+tool: GCC
+fileName: stm32_code_demo.map
+elfName: stm32_code_demo.elf
